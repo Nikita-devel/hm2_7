@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hm2_7"
+version = "0.1.1"
+description = ""
+authors = ["Nikita-devel <https://github.com/Nikita-devel>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.21"
+alembic = "^1.12.0"
+faker = "^19.6.2"
+psycopg2 = "^2.9.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
